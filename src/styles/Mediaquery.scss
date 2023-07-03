@@ -1,0 +1,129 @@
+@media (min-width:768px) and (max-width:1199px)
+{
+    .home3{
+        height: 120vh;
+        >div{
+           height: 110vh;
+        }
+    }
+    .home4{
+        height: 120vh;
+        >div{
+          height: 110vh;
+        }
+    }
+
+    .contact{
+        >main{
+            form{
+                >div{
+                  
+                    width: 100%;
+                    >label{
+                        width: 20%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:767px)
+{
+    nav{
+        justify-content: center;
+        >h2{
+            display: none;
+        }
+        >main{
+            justify-content: center;
+
+            a{
+                padding: 8px 6px;
+                margin: 0 4px;
+            }
+        }
+    }
+
+    .home{
+        >main{
+            align-items: center;
+           h1{
+            font-size: 34px;
+           }
+        }
+    }
+
+    .home2{
+        flex-direction: column;
+        >img{
+            width: 100%;
+        }
+        >div{
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .home3{
+        height: 120vh;
+        >div{
+            width: 100%;
+            height: 110vh;
+            border-radius: 0;
+        }
+    }
+
+    .home4{
+        height: 130vh;
+        justify-content: center;
+        align-items: center;
+        >div{
+            height: 120vh;
+            width: 100%;
+            border-radius: 0;
+            >article{
+                flex-direction: column;
+            }
+        }
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+
+        >div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .contact{
+        height:90vh;
+        >main{
+            width: 100%;
+            height: 80vh;
+            border-radius: 0;
+            padding: 0;
+       form{
+       
+       
+          >div{
+            width: 100%;
+            // height: 15vh;
+
+            >label{
+                width: 25%;
+               
+            }
+
+            >input{
+              width: 100%;
+            }
+          }
+        }
+    }
+    }
+}

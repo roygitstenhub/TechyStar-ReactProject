@@ -1,0 +1,37 @@
+@import "Colors";
+footer{
+ padding: 16px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+>div{
+    padding:8px;
+    >h2{
+        font-weight: 400;
+        text-transform: capitalize;
+        font-size: 24px;
+        color: $third;
+        text-transform: uppercase;
+    }
+    >h4{
+        font-weight: 200;
+        text-transform: capitalize;
+        color: $third;
+        text-transform: uppercase;
+    }
+    >p{
+        padding: 12px 0;
+    }
+
+    >a{
+        display: block;
+        padding: 8px 0;
+        color: $second;
+        cursor: pointer;
+        
+        &:hover{
+            color: $third;
+        }
+    }
+}
+}
